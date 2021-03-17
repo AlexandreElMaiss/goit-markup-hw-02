@@ -52,8 +52,7 @@
 
 /*Hero*/
 
-.hero-title,
-.primary-button {
+.hero-title {
   color: var(--primary-white-color);
 }
 
@@ -62,8 +61,11 @@
   background-color: var(--primary-bg-color);
 }
 
-.primary-button {
+.primary-button,
+.primary-button:hover,
+.primary-button:focus {
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /*main*/
