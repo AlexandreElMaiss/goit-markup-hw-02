@@ -180,9 +180,7 @@ a {
 
 /*portfolio*/
 
-.secondary-button,
-.secondary-button:hover,
-.secondary-button:focus {
+.secondary-button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   font-family: Roboto;
@@ -193,6 +191,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
 }
 
 .special-button,
